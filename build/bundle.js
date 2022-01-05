@@ -2834,7 +2834,6 @@ var app = (function () {
     	let div2;
     	let a3;
     	let t11;
-    	let li2;
     	let a4;
     	let t13;
     	let a5;
@@ -2882,7 +2881,6 @@ var app = (function () {
     			a3 = element("a");
     			a3.textContent = "Arstation";
     			t11 = space();
-    			li2 = element("li");
     			a4 = element("a");
     			a4.textContent = "Unsplash";
     			t13 = space();
@@ -2917,12 +2915,10 @@ var app = (function () {
     			add_location(a3, file$4, 39, 8, 1117);
     			attr_dev(a4, "href", "https://unsplash.com/@prasadjadhav");
     			attr_dev(a4, "class", "svelte-1e22w2e");
-    			add_location(a4, file$4, 40, 13, 1187);
-    			attr_dev(li2, "class", "svelte-1e22w2e");
-    			add_location(li2, file$4, 40, 8, 1182);
+    			add_location(a4, file$4, 40, 8, 1182);
     			attr_dev(a5, "href", "/");
     			attr_dev(a5, "class", "svelte-1e22w2e");
-    			add_location(a5, file$4, 41, 8, 1260);
+    			add_location(a5, file$4, 41, 8, 1249);
     			attr_dev(div2, "class", "menu-content svelte-1e22w2e");
     			add_location(div2, file$4, 35, 4, 985);
     			attr_dev(div3, "id", "mobile-menu");
@@ -2956,8 +2952,7 @@ var app = (function () {
     			append_dev(div3, div2);
     			append_dev(div2, a3);
     			append_dev(div2, t11);
-    			append_dev(div2, li2);
-    			append_dev(li2, a4);
+    			append_dev(div2, a4);
     			append_dev(div2, t13);
     			append_dev(div2, a5);
     			current = true;

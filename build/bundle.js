@@ -3575,7 +3575,7 @@ var app = (function () {
     			create_component(heropage.$$.fragment);
     			t1 = space();
     			create_component(footer.$$.fragment);
-    			attr_dev(div, "class", "layout svelte-w570d7");
+    			attr_dev(div, "class", "layout svelte-zolm1d");
     			add_location(div, file, 10, 1, 182);
     			add_location(main, file, 8, 0, 173);
     		},
